@@ -1,0 +1,32 @@
+From: FOO Administrator <operator@mail.foo.com>
+Subject: New Dummy E-mail Addresses @ FOO.ece.drexel.edu
+
+
+
+							<TAL_CURRENT_DATE>
+Dear <TAL_REALNAME>,
+
+As you may have already noticed, we do not have a standard e-mail address
+format in our server (mail.foo.com). This has been causing inconvenience
+even among us.
+
+In order to solve this problem, we have come up with four standardized
+dummy e-mail addresses which will serve exactly as your original e-mail
+address (<TAL_USERNAME>@mail.foo.com>).
+
+Here is your dummy e-mail addresses:
+
+	1.  <TAL_DOTED_REALNAME>@mail.foo.com
+
+	2.  <TAL_FIRSTNAME>@mail.foo.com
+
+	3.  <TAL_LASTNAME>@mail.foo.com
+
+	4.  <TAL_LASTNAME><TAL_1ST_CHAR_FIRSTNAME>@mail.foo.com
+
+
+NOT: Please don't try to login to terminals or POP server with these addresses,
+     they are good only for e-mail.
+
+Best Regards, FOO System Administrator <operator@mail.foo.com>
+

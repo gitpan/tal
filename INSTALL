@@ -1,0 +1,51 @@
+
+(A better document coming soon, hopefully)
+
+CONFIGURATION:
+
+Please set-up the fallowing variables in tal.pl
+
+	$passwd_file = '/etc/passwd';			Your passwd file
+
+	$alias_file = '/etc/aliases';			aliasses file
+
+	$remove_file = '/usr/lib/tal/removefile';	automaticly remove users
+							listed in this file
+							from selection list
+
+	$sendmail = '/usr/lib/sendmail';		your MTA
+
+	$localhost = 'hun.ece.drexel.edu';		host name to be appended
+							after username
+
+
+
+USAGE:
+
+   tal.pl   <document_to_send>
+
+(Then you will chose the user names from a simple User Interface)
+
+
+TAGS THAT YOU CAN USE IN YOUR DOCUMENT ARE:
+
+	<TAL_USERNAME>			Username
+	<TAL_UID>			User ID
+	<TAL_GID>			User's Primary Group ID
+	<TAL_USERNO>			User number
+	<TAL_HOMEDIR>			User's home dir
+	<TAL_SHELL>			User's shell	
+	<TAL_REALNAME>			User's realname
+	<TAL_ROOM>			User's room	
+	<TAL_WORKPHONE>			User's workphone
+	<TAL_HOMEPHONE>			User's homephone
+	<TAL_OTHER>			User's comment
+	<TAL_DOTED_REALNAME>		User's real name spaces are doted
+	<TAL_FIRSTNAME>			User's first name
+	<TAL_LASTNAME>			User's last name
+	<TAL_1ST_CHAR_FIRSTNAME>	User's firname's first character
+	<TAL_CURRENT_DATE>		Current date
+
+Please see the example file    tal_example_document   
+
+
